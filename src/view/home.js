@@ -237,7 +237,7 @@ const HomePage = () => {
                   <div className="text-base flex gap-x-3 bg-[#252525] p-4">
                     <img src={webImg} className="w-6" />
                     <p className="border-b-[1px] border-neutral-700">
-                      <a href="#">LinkedIn</a>
+                      <a href="https://www.linkedin.com/in/precious-affiah/">LinkedIn</a>
                     </p>
                   </div>
                 </div>
@@ -245,7 +245,7 @@ const HomePage = () => {
                   <div className="text-base flex gap-x-3 bg-[#252525] p-4">
                     <img src={webImg} className="w-6" />
                     <p className="border-b-[1px] border-neutral-700">
-                      <a href="#">Github</a>
+                      <a href="https://github.com/preciousaffiah">Github</a>
                     </p>
                   </div>
                 </div>
@@ -253,7 +253,7 @@ const HomePage = () => {
                   <div className="text-base flex gap-x-3 bg-[#252525] p-4">
                     <img src={webImg} className="w-6" />
                     <p className="border-b-[1px] border-neutral-700">
-                      <a href="#">Instagram</a>
+                      <a href="https://www.instagram.com/preciousaffiah/">Instagram</a>
                     </p>
                   </div>
                 </div>
@@ -261,7 +261,7 @@ const HomePage = () => {
                   <div className="text-base flex gap-x-3 bg-[#252525] p-4">
                     <img src={webImg} className="w-6" />
                     <p className="border-b-[1px] border-neutral-700">
-                      <a href="#">Twitter</a>
+                      <a href="https://x.com/Precious_theDev">Twitter</a>
                     </p>
                   </div>
                 </div>
