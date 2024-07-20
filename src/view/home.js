@@ -20,6 +20,24 @@ import serialization from "../assets/Javascript_Serialization.png";
 import Header from "../components/header";
 
 const HomePage = () => {
+  const items = [
+    {
+      link: "https://www.linkedin.com/in/precious-affiah/",
+      name: "LinkedIn"
+    },
+    {
+      link: "https://github.com/preciousaffiah",
+      name: "Github"
+    },
+    {
+      link: "https://x.com/Precious_theDev",
+      name: "Twitter"
+    },
+    {
+      link: "https://www.instagram.com/preciousaffiah",
+      name: "Instagram"
+    },
+  ];
   return (
     <div>
       <Header />
@@ -233,38 +251,18 @@ const HomePage = () => {
             <div className="py-12 border-b-2 border-solid border-neutral-700">
               <h1 className="text-2xl font-bold pb-3">Follow</h1>
               <div className="flex-wrap w-full gap-4 flex flex-row pt-3 text-sm justify-between">
-                <div className="md:w-[48%] w-full">
-                  <div className="text-base flex gap-x-3 bg-[#252525] p-4">
-                    <img src={webImg} className="w-6" />
-                    <p className="border-b-[1px] border-neutral-700">
-                      <a href="https://www.linkedin.com/in/precious-affiah/">LinkedIn</a>
-                    </p>
+                {items.map((item, index) => (
+                  <div className="md:w-[48%] w-full" key={index}>
+                    <div className="text-base flex gap-x-3 bg-[#252525] p-4">
+                      <img src={webImg} className="w-6" />
+                      <p className="border-b-[1px] border-neutral-700">
+                        <a href={item.link} target="_blank">
+                          {item.name}
+                        </a>
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div className="md:w-[48%] w-full">
-                  <div className="text-base flex gap-x-3 bg-[#252525] p-4">
-                    <img src={webImg} className="w-6" />
-                    <p className="border-b-[1px] border-neutral-700">
-                      <a href="https://github.com/preciousaffiah">Github</a>
-                    </p>
-                  </div>
-                </div>
-                <div className="md:w-[48%] w-full">
-                  <div className="text-base flex gap-x-3 bg-[#252525] p-4">
-                    <img src={webImg} className="w-6" />
-                    <p className="border-b-[1px] border-neutral-700">
-                      <a href="https://www.instagram.com/preciousaffiah/">Instagram</a>
-                    </p>
-                  </div>
-                </div>
-                <div className="md:w-[48%] w-full">
-                  <div className="text-base flex gap-x-3 bg-[#252525] p-4">
-                    <img src={webImg} className="w-6" />
-                    <p className="border-b-[1px] border-neutral-700">
-                      <a href="https://x.com/Precious_theDev">Twitter</a>
-                    </p>
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
           </div>

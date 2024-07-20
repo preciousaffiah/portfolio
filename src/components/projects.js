@@ -30,7 +30,7 @@ const Project = ({ page, description, link, year, role, overview, image }) => {
                     <p className="overflow-hidden truncate text-[0.98rem] w-[30%] text-neutral-500">
                       Website
                     </p>
-                    <a href={link} className="w-[60%] underline">
+                    <a href={link} target="_blank" className="w-[60%] underline">
                       <p className="overflow-hidden truncate text-[0.98rem] w-full">
                         {link}
                       </p>
