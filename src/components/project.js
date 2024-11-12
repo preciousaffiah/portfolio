@@ -12,32 +12,32 @@ const Project = ({ page, description, link, year, role, overview, image }) => {
         <div className="md:flex flex-col justify-center items-center w-full md:px-0">
           <div className="section-1 w-full">
             <div>
-              <img src={folderImg} className="w-20 pb-4" />
+              <img src={folderImg} alt="img" className="w-20 pb-4"/>
             </div>
             <div className="md:flex flex-row justify-between items-center w-full gap-12 pb-12 border-b-2 border-solid border-neutral-700">
               <div className="md:w-[40rem]">
                 <h1 className="md:text-4xl text-3xl font-bold pb-9">{page}</h1>
                 <div className="flex flex-col gap-y-2">
                   <div className="flex w-full gap-2">
-                    <img src={caseImg} className="w-5 h-full" />
+                    <img src={caseImg} alt="img" className="w-5 h-full" />
                     <p className="overflow-hidden truncate text-[0.98rem] w-[30%] text-neutral-500">
                       Short description
                     </p>
                     <p className="text-[0.98rem] w-[60%]">{description}</p>
                   </div>
                   <div className="flex w-full gap-2">
-                    <img src={webImg} className="w-5 h-full" />
+                    <img src={webImg} alt="img" className="w-5 h-full" />
                     <p className="overflow-hidden truncate text-[0.98rem] w-[30%] text-neutral-500">
                       Website
                     </p>
-                    <a href={link} target="_blank" className="w-[60%] underline">
+                    <a href={link} target="_blank" rel="noreferrer" className="w-[60%] underline">
                       <p className="overflow-hidden truncate text-[0.98rem] w-full">
                         {link}
                       </p>
                     </a>
                   </div>
                   <div className="flex w-full gap-2">
-                    <img src={roleImg} className="w-5 h-full" />
+                    <img src={roleImg} alt="img" className="w-5 h-full" />
                     <p className="overflow-hidden truncate text-[0.98rem] w-[30%] text-neutral-500">
                       Role / Service
                     </p>
@@ -46,7 +46,7 @@ const Project = ({ page, description, link, year, role, overview, image }) => {
                     </p>
                   </div>
                   <div className="flex w-full gap-2">
-                    <img src={yearImg} className="w-5 h-full" />
+                    <img src={yearImg} alt="img" className="w-5 h-full" />
                     <p className="overflow-hidden truncate text-[0.98rem] w-[30%] text-neutral-500">
                       Year
                     </p>
@@ -73,7 +73,7 @@ const Project = ({ page, description, link, year, role, overview, image }) => {
                 <p className="text-sm w-fit bg-[#69314C] px-1 flex items-center">
                   WEBSITE
                 </p>
-                <img src={image} className="w-full" />
+                <img src={image} alt="img" className="w-full" />
               </div>
             </div>
           </div>

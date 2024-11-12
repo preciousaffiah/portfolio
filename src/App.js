@@ -1,10 +1,16 @@
 import './App.css';
 import HomePage from './view/home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Iko from './view/iko';
-import Skild from './view/skilld';
-import SerializationJs from './view/serialization';
-import Ticketing from './view/ticketing';
+import Iko from './view/projects/iko';
+import Skild from './view/projects/skilld';
+import SerializationJs from './view/projects/serialization';
+import Ticketing from './view/projects/ticketing';
+import Projects from './view/projects';
+import Word from './view/projects/word';
+import RealEstate from './view/projects/estate';
+import TopShelf from './view/projects/top-shelf';
+import Restaurant from './view/projects/restaurant';
+import YouChat from './view/projects/chat';
 
 function App() {
   return (
@@ -13,10 +19,16 @@ function App() {
         {/* <Header /> */}
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/iko-africa" element={<Iko />} />
-            <Route path="/skild-africa" element={<Skild />} />
-            <Route path="/js-serialization" element={<SerializationJs />} />
-            <Route path="/ticketing" element={<Ticketing />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/projects/iko-africa" element={<Iko />} />
+            <Route path="/projects/skild-africa" element={<Skild />} />
+            <Route path="/projects/js-serialization" element={<SerializationJs />} />
+            <Route path="/projects/ticketing" element={<Ticketing />} />
+            <Route path="/projects/word-hive" element={<Word />} />
+            <Route path="/projects/real-estate" element={<RealEstate />} />
+            <Route path="/projects/top-shelf" element={<TopShelf />} />
+            <Route path="/projects/restaurant" element={<Restaurant />} />
+            <Route path="/projects/you-chat" element={<YouChat />} />
           </Routes>
         {/* <Footer /> */}
       </div>

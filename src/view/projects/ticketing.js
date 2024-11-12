@@ -1,12 +1,12 @@
 import React from "react";
-import ticket from "../assets/bus-ticketing.png";
-import Header from "../components/header";
-import Project from "../components/projects";
+import ticket from "../../assets/projects/bus-ticketing.png";
+import Header from "../../components/header";
+import Project from "../../components/project";
 
 const Ticketing = () => {
   return (
     <div>
-      <Header page="Bus Ticketing" link="/ticketing" />
+      <Header page="Bus Ticketing" link="/projects/ticketing" />
       <Project
         page="Bus Ticketing"
         description="A bus ticketing platform"

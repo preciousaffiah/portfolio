@@ -1,12 +1,12 @@
 import React from "react";
-import skildAfrica from "../assets/skild-africa.png";
-import Header from "../components/header";
-import Project from "../components/projects";
+import skildAfrica from "../../assets/projects/skild-africa.png";
+import Header from "../../components/header";
+import Project from "../../components/project";
 
 const Skild = () => {
   return (
     <div>
-      <Header page="Skild Africa" link="/skild-africa" />
+      <Header page="Skild Africa" link="/projects/skild-africa" />
       <Project
         page="Skild Africa"
         description="An e-learning platform for teenagers and young ones"

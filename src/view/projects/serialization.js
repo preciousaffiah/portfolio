@@ -1,12 +1,12 @@
 import React from "react";
-import serialization from "../assets/Javascript_Serialization.png";
-import Header from "../components/header";
-import Project from "../components/projects";
+import serialization from "../../assets/projects/Javascript_Serialization.png";
+import Header from "../../components/header";
+import Project from "../../components/project";
 
 const SerializationJs = () => {
   return (
     <div>
-      <Header page="Javascript Serialization" link="/js-serialization" />
+      <Header page="Javascript Serialization" link="/projects/js-serialization" />
       <Project
         page="Javascript Serialization"
         description="This project implements custom serialization in Javascript"

@@ -1,12 +1,12 @@
 import React from "react";
-import ikoAfrica from "../assets/ikoafrica.png";
-import Header from "../components/header";
-import Project from "../components/projects";
+import ikoAfrica from "../../assets/projects/ikoafrica.png";
+import Header from "../../components/header";
+import Project from "../../components/project";
 
 const Iko = () => {
   return (
     <div>
-      <Header page="Iko Africa" link="/iko-africa" />
+      <Header page="Iko Africa" link="/projects/iko-africa" />
       <Project
         page="Iko Africa"
         description="social publishing app for african contnet writers"
