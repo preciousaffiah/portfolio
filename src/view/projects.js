@@ -82,7 +82,7 @@ const Projects = () => {
   return (
     <div>
       <Header />
-      <div className="px-14">
+      <div className="md:px-14 px-6">
         <div className="md:flex flex-col justify-center items-center w-full md:px-0">
           <div className="section-4 w-full">
             <div className="py-12 border-b-2 border-solid border-neutral-700">
