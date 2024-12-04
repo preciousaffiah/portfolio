@@ -8,12 +8,12 @@ const SerializationJs = () => {
     <div>
       <Header page="Javascript Serialization" link="/projects/js-serialization" />
       <Project
-        page="Javascript Serialization"
-        description="This project implements custom serialization in Javascript"
-        link="https://github.com/preciousaffiah/Javascript_Serialization"
+        page="digiYO"
+        description="A social sporting platform for athletes and like minds"
+        link="https://apps.apple.com/ng/app/digiyo"
         year="2024"
         role="Backend"
-        overview="This project implements custom serialization in Javascript, It allows data to be stored with a unique file extension and encrypted, ensuring data security and integrity."
+        overview="digiYO is a platform where users can book & schedule sports training sessions, create challenge competitions, share highlights, and monetize their content."
         image={serialization}
       />
     </div>
