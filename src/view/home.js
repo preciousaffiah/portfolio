@@ -54,7 +54,7 @@ const HomePage = () => {
                 </h1>
                 <p className="md:pb-0 pb-12 text-base">
                   I'm a dedicated Software Engineer with a passion for building
-                  robust and scalable backend systems. With 4+ years of
+                  robust and scalable software systems. With 4+ years of
                   experience in the industry, I've had the opportunity to work
                   on variety of projects, ranging from large-scale enterprise
                   solutions to innovative startup ventures. Ready to create and
