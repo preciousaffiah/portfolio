@@ -12,11 +12,12 @@ import featureImg from "../assets/feature.png";
 import folderImg from "../assets/folder.png";
 import mailImg from "../assets/mail.png";
 import webImg from "../assets/web.png";
+import documentation from "../assets/doc.png";
 import locationImg from "../assets/location.png";
 import skilldAfrica from "../assets/projects/skild-africa.png";
 import ikoAfrica from "../assets/projects/ikoafrica.png";
 import restaurant from "../assets/projects/restaurant.jpg";
-import serialization from "../assets/projects/Javascript_Serialization.png";
+import digiyo from "../assets/projects/digiyo.jpeg";
 import Header from "../components/header";
 import { Link } from "react-router-dom";
 
@@ -41,9 +42,9 @@ const HomePage = () => {
       <div className="lg:px-80 px-[5%] md:pt-24 pt-6">
         <div className="md:flex flex-col justify-center items-center w-full md:px-0">
           <div className="section-1 w-full">
-            <div>
+            {/* <div>
               <img src={caseImg} alt="img" className="w-20 pb-4" />
-            </div>
+            </div> */}
             <div className="md:flex flex-row justify-between items-center w-full gap-12 pb-12 border-b-2 border-solid border-neutral-700">
               <div className="md:w-[30rem]">
                 <h1 className="md:text-4xl text-3xl font-bold pb-9">
@@ -86,28 +87,28 @@ const HomePage = () => {
                 <p className="text-base">Expertise</p>
               </span>
               <div className="flex-wrap w-full gap-4 flex flex-row pt-3 text-sm justify-between">
-                <div className="flex flex-row gap-x-1 bg-neutral-700 md:w-52 w-full p-3">
+                <div className="flex flex-row gap-x-1 bg-neutral-700 md:w-52 w-full p-3 rounded-md">
                   <img src={systemImg} alt="img" className="w-4" />
                   <p>Systems Design</p>
                 </div>
-                <div className="flex flex-row gap-x-1 bg-neutral-700 md:w-52 w-full p-3">
-                  <img src={communicateImg} alt="img" className="w-4" />
+                <div className="flex flex-row gap-x-1 bg-neutral-700 md:w-52 w-full p-3 rounded-md">
+                  <img src={documentation} alt="img" className="w-4" />
                   <p>Technical Documentation</p>
                 </div>
-                    <div className="flex flex-row gap-x-1 bg-neutral-700 md:w-52 w-full p-3">
+                <div className="flex flex-row gap-x-1 bg-neutral-700 md:w-52 w-full p-3 rounded-md">
                   <img src={lightImg} alt="img" className="w-4" />
                   <p>Problem Solving</p>
                 </div>
-                <div className="flex flex-row gap-x-1 bg-neutral-700 md:w-52 w-full p-3">
+                <div className="flex flex-row gap-x-1 bg-neutral-700 md:w-52 w-full p-3 rounded-md">
                   <img src={teamImg} alt="img" className="w-4" />
-                  <p>Collaboration and Communication</p>
+                  <p>Collaboration</p>
                 </div>
-                
-                <div className="flex flex-row gap-x-1 bg-neutral-700 md:w-52 w-full p-3">
-                  <img src={personImg} alt="img" className="w-4" />
-                  <p>Adaptability</p>
+
+                <div className="flex flex-row gap-x-1 bg-neutral-700 md:w-52 w-full p-3 rounded-md">
+                  <img src={communicateImg} alt="img" className="w-4" />
+                  <p>Communication</p>
                 </div>
-                <div className="flex flex-row gap-x-1 bg-neutral-700 md:w-52 w-full p-3">
+                <div className="flex flex-row gap-x-1 bg-neutral-700 md:w-52 w-full p-3 rounded-md">
                   <img src={timeImg} alt="img" className="w-4" />
                   <p>Time Management</p>
                 </div>
@@ -173,16 +174,15 @@ const HomePage = () => {
                   </Link>
                 </div>
                 <div className="bg-neutral-700 md:w-[48%] w-full">
-                  <Link to="projects/js-serialization">
-                    <img src={serialization} alt="img" className="w-full" />
+                  <Link to="projects/digiyo">
+                    <img src={digiyo} alt="img" className="w-full" />
                     <div className=" p-3">
                       <span className="flex gap-x-1">
                         <img src={folderImg} alt="img" className="w-5" />
-                        <p>Javascript Serialization</p>
+                        <p>digiYO</p>
                       </span>
                       <p className="text-xs py-1">
-                        This project implements custom serialization in
-                        javascript
+                        A social sporting platform for athletes and like minds
                       </p>
                       <p className="text-xs w-fit bg-[#69314C] px-1">Backend</p>
                     </div>
@@ -219,8 +219,8 @@ const HomePage = () => {
                     <p className="md:text-3xl text-2xl font-semibold pb-3">
                       Advanced Diploma in Software Engineering
                     </p>
-                    <p>Aptech Computer Education,</p>
-                    <p>Cross River, Calabar, 2020-2021</p>
+                    <p>Aptech Computer Education</p>
+                    <p>Cross River, Nigeria, 2020-2021</p>
                   </div>
                 </div>
                 <div className="md:w-[48%] w-full">
@@ -238,51 +238,40 @@ const HomePage = () => {
                       Fullstack Development
                     </p>
                     <p>Mississippi Coding Academies</p>
-                    <p>USA, Mississippi, 2022-2023</p>
+                    <p>Mississippi, USA, 2022-2023</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div className="section-6 w-full">
-            <div className="py-12 border-b-2 border-solid border-neutral-700">
-              <h1 className="text-2xl font-bold pb-3">Contact</h1>
-              <div className="flex-wrap w-full gap-4 flex flex-col pt-3 text-sm justify-between">
-                <div className="w-full">
-                  <div className="text-base flex gap-x-3 border-2 border-dotted p-4">
-                    <img src={locationImg} alt="img" className="w-6" />
-                    <p>Lagos, Nigeria</p>
-                  </div>
+            <div className="py-12">
+              <h1 className="text-2xl font-bold pb-3">
+                Ready to build something exceptional?
+              </h1>
+              <div className="flex-wrap w-full gap-4 flex flex-col pt-3 text-base justify-between">
+                <div className="w-full flex gap-x-2 items-center">
+                  <p className="font-medium text-lg">Contact me :</p>
+                  <p className="bg-neutral-700 py-1 px-2 rounded-full">
+                    <Link to="mailto:preciousaffiah205@gmail.com">
+                      preciousaffiah205@gmail.com
+                    </Link>
+                  </p>
                 </div>
-                <div className="w-full">
-                  <div className="text-base flex gap-x-3 border-2 border-dotted p-4">
-                    <img src={mailImg} alt="img" className="w-6" />
-                    <p>
-                      <Link to="mailto:preciousaffiah205@gmail.com">
-                        preciousaffiah205@gmail.com
-                      </Link>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="section-7 w-full">
-            <div className="py-12 border-b-2 border-solid border-neutral-700">
-              <h1 className="text-2xl font-bold pb-3">Follow</h1>
-              <div className="flex-wrap w-full gap-4 flex flex-row pt-3 text-sm justify-between">
-                {items.map((item, index) => (
-                  <div className="md:w-[48%] w-full" key={index}>
-                    <div className="text-base flex gap-x-3 bg-[#252525] p-4">
-                      <img src={webImg} alt="img" className="w-6" />
-                      <p className="border-b-[1px] border-neutral-700">
-                        <Link to={item.link} target="_blank" rel="noreferrer">
-                          {item.name}
-                        </Link>
-                      </p>
+                <div className="w-full flex gap-x-2 items-center">
+                  <p className="font-medium text-lg">Follow me :</p>
+                  {items.map((item, index) => (
+                    <div key={index}>
+                      <div className="flex  items-center">
+                        <p className="bg-neutral-700 hover:bg-neutral-800 py-1 px-2 rounded-full">
+                          <Link to={item.link} target="_blank" rel="noreferrer">
+                            {item.name}
+                          </Link>
+                        </p>
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
             </div>
           </div>

@@ -22,7 +22,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/projects/iko-africa" element={<Iko />} />
             <Route path="/projects/skild-africa" element={<Skild />} />
-            <Route path="/projects/js-serialization" element={<SerializationJs />} />
+            <Route path="/projects/digiyo" element={<SerializationJs />} />
             <Route path="/projects/ticketing" element={<Ticketing />} />
             <Route path="/projects/word-hive" element={<Word />} />
             <Route path="/projects/real-estate" element={<RealEstate />} />

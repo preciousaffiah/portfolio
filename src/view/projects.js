@@ -5,6 +5,7 @@ import skilldAfrica from "../assets/projects/skild-africa.png";
 import ikoAfrica from "../assets/projects/ikoafrica.png";
 import ticket from "../assets/projects/bus-ticketing.png";
 import serialization from "../assets/projects/Javascript_Serialization.png";
+import digiyo from "../assets/projects/digiyo.jpeg";
 import wordhive from "../assets/projects/wordhive.png";
 import realestate from "../assets/projects/real-estate.png";
 import topshelf from "../assets/projects/topshelf.png";
@@ -51,11 +52,11 @@ const Projects = () => {
       img: skilldAfrica,
     },
     {
-      link: "/projects/js-serialization",
+      link: "/projects/digiyo",
       name: "digiYO",
       description: "A social sporting platform for athletes and like minds",
       tag: "Backend",
-      img: serialization,
+      img: digiyo,
     },
     {
       link: "/projects/ticketing",
