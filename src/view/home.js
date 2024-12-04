@@ -91,17 +91,18 @@ const HomePage = () => {
                   <p>Systems Design</p>
                 </div>
                 <div className="flex flex-row gap-x-1 bg-neutral-700 md:w-52 w-full p-3">
-                  <img src={teamImg} alt="img" className="w-4" />
-                  <p>Collaboration and Communication</p>
+                  <img src={communicateImg} alt="img" className="w-4" />
+                  <p>Technical Documentation</p>
                 </div>
-                <div className="flex flex-row gap-x-1 bg-neutral-700 md:w-52 w-full p-3">
+                    <div className="flex flex-row gap-x-1 bg-neutral-700 md:w-52 w-full p-3">
                   <img src={lightImg} alt="img" className="w-4" />
                   <p>Problem Solving</p>
                 </div>
                 <div className="flex flex-row gap-x-1 bg-neutral-700 md:w-52 w-full p-3">
-                  <img src={communicateImg} alt="img" className="w-4" />
-                  <p>Technical Documentation</p>
+                  <img src={teamImg} alt="img" className="w-4" />
+                  <p>Collaboration and Communication</p>
                 </div>
+                
                 <div className="flex flex-row gap-x-1 bg-neutral-700 md:w-52 w-full p-3">
                   <img src={personImg} alt="img" className="w-4" />
                   <p>Adaptability</p>
