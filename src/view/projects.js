@@ -52,8 +52,8 @@ const Projects = () => {
     },
     {
       link: "/projects/js-serialization",
-      name: "Javascript Serialization",
-      description: "This project implements custom serialization in Javascript",
+      name: "digiYO",
+      description: "A social sporting platform for athletes and like minds",
       tag: "Backend",
       img: serialization,
     },
