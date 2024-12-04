@@ -31,10 +31,6 @@ const HomePage = () => {
       name: "Github",
     },
     {
-      link: "https://x.com/Precious_theDev",
-      name: "Twitter",
-    },
-    {
       link: "https://www.instagram.com/preciousaffiah",
       name: "Instagram",
     },
@@ -223,7 +219,7 @@ const HomePage = () => {
                       Advanced Diploma in Software Engineering
                     </p>
                     <p>Aptech Computer Education,</p>
-                    <p>Cross River, Calabar, 2020-2023</p>
+                    <p>Cross River, Calabar, 2020-2021</p>
                   </div>
                 </div>
                 <div className="md:w-[48%] w-full">
@@ -231,8 +227,8 @@ const HomePage = () => {
                     <p className="md:text-3xl text-2xl font-semibold pb-3">
                       Bachelor of Science in Computer Science
                     </p>
-                    <p>Institut Supérieur de Communication et de Gestion,</p>
-                    <p>Cotonou, Benin, 2020-2024</p>
+                    <p>Middlesex University</p>
+                    <p>Flic en Flac, Mauritius, 2021-2024</p>
                   </div>
                 </div>
                 <div className="md:w-[48%] w-full">
