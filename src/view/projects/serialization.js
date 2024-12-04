@@ -11,7 +11,7 @@ const SerializationJs = () => {
         page="digiYO"
         description="A social sporting platform for athletes and like minds"
         link="https://apps.apple.com/ng/app/digiyo/id6502759122"
-        year="2024"
+        year="2023"
         role="Backend"
         overview="digiYO is a platform where users can book & schedule sports training sessions, create challenge competitions, share highlights, and monetize their content."
         image={serialization}
