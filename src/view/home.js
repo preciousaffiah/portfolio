@@ -21,6 +21,10 @@ import digiyo from "../assets/projects/digiyo.jpeg";
 import Header from "../components/header";
 import { Link } from "react-router-dom";
 
+import "../App.css";
+import Testimonial from "../components/testimonial";
+import Footer from "../components/footer";
+
 const HomePage = () => {
   const items = [
     {
@@ -56,10 +60,13 @@ const HomePage = () => {
                 <p className="md:pb-0 pb-12 text-base">
                   I'm a dedicated Software Engineer with a passion for building
                   robust and scalable software systems. With 4+ years of
-                  experience in the industry, I've had the opportunity to work
-                  on variety of projects, ranging from large-scale enterprise
-                  solutions to innovative startup ventures. Ready to create and
-                  recreate with code.
+                  experience in the industry, I've worked on variety of
+                  projects, ranging from large-scale enterprise solutions to
+                  innovative startup ventures. Ready to{" "}
+                  <span className="text-xl font-semibold pb-3">create</span> and <span className="text-xl font-semibold pb-3">
+                    recreate
+                  </span>{" "}
+                  with <span className="text-xl font-semibold pb-3">code</span>.
                 </p>
               </div>
               <div className="w-fit">
@@ -74,7 +81,7 @@ const HomePage = () => {
                 <p>Years of Experience</p>
               </div>
               <div className="w-1/2">
-                <h1 className="text-3xl font-bold pb-3">50+</h1>
+                <h1 className="text-3xl font-bold pb-3">30+</h1>
                 <p>Projects Completed</p>
               </div>
             </div>
@@ -97,20 +104,20 @@ const HomePage = () => {
                 </div>
                 <div className="flex flex-row gap-x-1 bg-neutral-700 md:w-52 w-full p-3 rounded-md">
                   <img src={lightImg} alt="img" className="w-4" />
-                  <p>Problem Solving</p>
+                  <p>DevOps</p>
                 </div>
                 <div className="flex flex-row gap-x-1 bg-neutral-700 md:w-52 w-full p-3 rounded-md">
                   <img src={teamImg} alt="img" className="w-4" />
-                  <p>Collaboration</p>
+                  <p>Frontend development</p>
                 </div>
 
                 <div className="flex flex-row gap-x-1 bg-neutral-700 md:w-52 w-full p-3 rounded-md">
                   <img src={communicateImg} alt="img" className="w-4" />
-                  <p>Communication</p>
+                  <p>Backend development</p>
                 </div>
                 <div className="flex flex-row gap-x-1 bg-neutral-700 md:w-52 w-full p-3 rounded-md">
                   <img src={timeImg} alt="img" className="w-4" />
-                  <p>Time Management</p>
+                  <p>Database Management</p>
                 </div>
               </div>
             </div>
@@ -220,7 +227,7 @@ const HomePage = () => {
                       Advanced Diploma in Software Engineering
                     </p>
                     <p>Aptech Computer Education</p>
-                    <p>Cross River, Nigeria, 2020-2021</p>
+                    <p>Nigeria, 2020-2021</p>
                   </div>
                 </div>
                 <div className="md:w-[48%] w-full">
@@ -229,7 +236,7 @@ const HomePage = () => {
                       Bachelor of Science in Computer Science
                     </p>
                     <p>Middlesex University</p>
-                    <p>Flic en Flac, Mauritius, 2021-2024</p>
+                    <p>Mauritius, 2021-2024</p>
                   </div>
                 </div>
                 <div className="md:w-[48%] w-full">
@@ -238,13 +245,18 @@ const HomePage = () => {
                       Fullstack Development
                     </p>
                     <p>Mississippi Coding Academies</p>
-                    <p>Mississippi, USA, 2022-2023</p>
+                    <p>USA, 2022-2023</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div className="section-6 w-full">
+            <div className="py-12 border-b-2 border-solid border-neutral-700">
+              <Testimonial />
+            </div>
+          </div>
+          <div className="section-7 w-full">
             <div className="py-12">
               <h1 className="text-2xl font-bold pb-3">
                 Ready to build something exceptional?
@@ -252,7 +264,7 @@ const HomePage = () => {
               <div className="flex-wrap w-full gap-4 flex flex-col pt-3 text-base justify-between">
                 <div className="w-full flex gap-x-2 items-center">
                   <p className="font-medium text-lg">Contact me :</p>
-                  <p className="bg-neutral-700 py-1 px-2 rounded-full">
+                  <p className="bg-neutral-700 transition delay-100 hover:bg-neutral-800 py-1 px-3 rounded-xl">
                     <Link to="mailto:preciousaffiah205@gmail.com">
                       preciousaffiah205@gmail.com
                     </Link>
@@ -263,7 +275,7 @@ const HomePage = () => {
                   {items.map((item, index) => (
                     <div key={index}>
                       <div className="flex  items-center">
-                        <p className="bg-neutral-700 hover:bg-neutral-800 py-1 px-2 rounded-full">
+                        <p className="bg-neutral-700 transition delay-100 hover:bg-neutral-800 py-1 px-3 rounded-xl">
                           <Link to={item.link} target="_blank" rel="noreferrer">
                             {item.name}
                           </Link>
@@ -277,6 +289,7 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
