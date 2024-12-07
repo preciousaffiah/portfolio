@@ -1,7 +1,6 @@
-import React, { useRef } from "react";
+import React from "react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import img from "../assets/image.jpeg";
 
 // Import Swiper styles
 import "swiper/css";
@@ -10,7 +9,7 @@ import "swiper/css/navigation";
 
 // import "../App.css"
 
-const Testimonial = ({ page, link }) => {
+const Testimonial = () => {
   return (
     <div className="w-full">
       <h1 className="text-2xl font-bold pb-3">

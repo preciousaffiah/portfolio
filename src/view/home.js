@@ -1,23 +1,23 @@
 import React from "react";
 import img from "../assets/image.jpeg";
-import caseImg from "../assets/case.png";
 import bagImg from "../assets/bag.png";
-import systemImg from "../assets/system.png";
-import communicateImg from "../assets/communicate.png";
-import teamImg from "../assets/team.png";
-import timeImg from "../assets/time.png";
-import lightImg from "../assets/light.png";
-import personImg from "../assets/person.png";
+import systemImg from "../assets/systems.png";
+import backendImg from "../assets/system.png";
 import featureImg from "../assets/feature.png";
 import folderImg from "../assets/folder.png";
-import mailImg from "../assets/mail.png";
-import webImg from "../assets/web.png";
 import documentation from "../assets/doc.png";
-import locationImg from "../assets/location.png";
+import databaseImg from "../assets/database.png";
+import devOpsImg from "../assets/cloud.png";
+import codeImg from "../assets/code.png";
 import skilldAfrica from "../assets/projects/skild-africa.png";
 import ikoAfrica from "../assets/projects/ikoafrica.png";
 import restaurant from "../assets/projects/restaurant.jpg";
 import digiyo from "../assets/projects/digiyo.jpeg";
+import digiyoLogo from "../assets/projects/logos/logo-digiyo2.png";
+import mscaLogo from "../assets/projects/logos/logo-msca2.png";
+import ikoLogo from "../assets/projects/logos/logo-iko2.png";
+import logLogo from "../assets/projects/logos/logo-log2.png";
+import skildLogo from "../assets/projects/logos/logo-skild2.png";
 import Header from "../components/header";
 import { Link } from "react-router-dom";
 
@@ -103,20 +103,20 @@ const HomePage = () => {
                   <p>Technical Documentation</p>
                 </div>
                 <div className="flex flex-row gap-x-1 bg-neutral-700 md:w-52 w-full p-3 rounded-md">
-                  <img src={lightImg} alt="img" className="w-4" />
+                  <img src={devOpsImg} alt="img" className="w-4" />
                   <p>DevOps</p>
                 </div>
                 <div className="flex flex-row gap-x-1 bg-neutral-700 md:w-52 w-full p-3 rounded-md">
-                  <img src={teamImg} alt="img" className="w-4" />
+                  <img src={codeImg} alt="img" className="w-4" />
                   <p>Frontend development</p>
                 </div>
 
                 <div className="flex flex-row gap-x-1 bg-neutral-700 md:w-52 w-full p-3 rounded-md">
-                  <img src={communicateImg} alt="img" className="w-4" />
+                  <img src={backendImg} alt="img" className="w-4" />
                   <p>Backend development</p>
                 </div>
                 <div className="flex flex-row gap-x-1 bg-neutral-700 md:w-52 w-full p-3 rounded-md">
-                  <img src={timeImg} alt="img" className="w-4" />
+                  <img src={databaseImg} alt="img" className="w-4" />
                   <p>Database Management</p>
                 </div>
               </div>
@@ -215,6 +215,24 @@ const HomePage = () => {
                   </svg>
                 </div>
               </Link>
+            </div>
+          </div>
+          <div className="section-3 w-full">
+            <div className="py-12 border-b-2 border-solid border-neutral-700">
+              <h1 className="text-2xl font-bold pb-3">Work</h1>
+              <span className="flex flex-row items-center pb-3 border-b-2 border-solid border-neutral-700">
+                <img src={bagImg} alt="img" className="w-5" />
+                <p className="text-base">Companies worked for</p>
+              </span>
+              <div className="flex-wrap w-full flex flex-row pt-12 text-sm justify-between">
+              <img src={mscaLogo} alt="img" className="w-24 h-14"/>
+              <img src={ikoLogo} alt="img" className="size-14"/>
+
+                <img src={skildLogo} alt="img" className="w-24 h-12"/>
+                <img src={logLogo} alt="img" className="size-14"/>
+                <img src={digiyoLogo} alt="img" className="size-14"/>
+
+              </div>
             </div>
           </div>
           <div className="section-5 w-full">
