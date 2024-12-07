@@ -63,9 +63,8 @@ const HomePage = () => {
                   experience in the industry, I've worked on variety of
                   projects, ranging from large-scale enterprise solutions to
                   innovative startup ventures. Ready to{" "}
-                  <span className="text-xl font-semibold pb-3">create</span> and <span className="text-xl font-semibold pb-3">
-                    recreate
-                  </span>{" "}
+                  <span className="text-xl font-semibold pb-3">create</span> and{" "}
+                  <span className="text-xl font-semibold pb-3">recreate</span>{" "}
                   with <span className="text-xl font-semibold pb-3">code</span>.
                 </p>
               </div>
@@ -225,13 +224,12 @@ const HomePage = () => {
                 <p className="text-base">Companies worked for</p>
               </span>
               <div className="flex-wrap w-full flex flex-row pt-12 text-sm justify-between">
-              <img src={mscaLogo} alt="img" className="w-24 h-14"/>
-              <img src={ikoLogo} alt="img" className="size-14"/>
+                <img src={mscaLogo} alt="img" className="md:w-24 md:h-14 w-16 h-12" />
+                <img src={ikoLogo} alt="img" className="md:size-14 size-12" />
 
-                <img src={skildLogo} alt="img" className="w-24 h-12"/>
-                <img src={logLogo} alt="img" className="size-14"/>
-                <img src={digiyoLogo} alt="img" className="size-14"/>
-
+                <img src={skildLogo} alt="img" className="md:w-24 md:h-12 w-16 h-10" />
+                <img src={logLogo} alt="img" className="md:size-14 size-12" />
+                <img src={digiyoLogo} alt="img" className="md:size-14 size-12" />
               </div>
             </div>
           </div>

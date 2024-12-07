@@ -1,5 +1,4 @@
 import React from "react";
-import caseImg from "../assets/case.png";
 
 const Header = ({ page, link }) => {
   return (
