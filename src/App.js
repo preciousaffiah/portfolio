@@ -3,7 +3,6 @@ import HomePage from './view/home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Iko from './view/projects/iko';
 import Skild from './view/projects/skilld';
-import SerializationJs from './view/projects/serialization';
 import Ticketing from './view/projects/ticketing';
 import Projects from './view/projects';
 import Word from './view/projects/word';
@@ -22,7 +21,6 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/projects/iko-africa" element={<Iko />} />
             <Route path="/projects/skild-africa" element={<Skild />} />
-            <Route path="/projects/digiyo" element={<SerializationJs />} />
             <Route path="/projects/ticketing" element={<Ticketing />} />
             <Route path="/projects/word-hive" element={<Word />} />
             <Route path="/projects/real-estate" element={<RealEstate />} />

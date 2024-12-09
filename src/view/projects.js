@@ -4,7 +4,6 @@ import folderImg from "../assets/folder.png";
 import skilldAfrica from "../assets/projects/skild-africa.png";
 import ikoAfrica from "../assets/projects/ikoafrica.png";
 import ticket from "../assets/projects/bus-ticketing.png";
-import serialization from "../assets/projects/Javascript_Serialization.png";
 import digiyo from "../assets/projects/digiyo.jpeg";
 import wordhive from "../assets/projects/wordhive.png";
 import realestate from "../assets/projects/real-estate.png";
