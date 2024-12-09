@@ -10,12 +10,13 @@ import RealEstate from './view/projects/estate';
 import TopShelf from './view/projects/top-shelf';
 import Restaurant from './view/projects/restaurant';
 import YouChat from './view/projects/chat';
-
+import GoogleAnalytics from './components/analytics';
 function App() {
   return (
     <BrowserRouter>
       <div>
         {/* <Header /> */}
+        <GoogleAnalytics />
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/projects" element={<Projects />} />
