@@ -9,6 +9,7 @@ import wordhive from "../assets/projects/wordhive.png";
 import realestate from "../assets/projects/real-estate.png";
 import topshelf from "../assets/projects/topshelf.png";
 import restaurant from "../assets/projects/restaurant.jpg";
+import liwu from "../assets/projects/liwu.png";
 import youchat from "../assets/projects/youchat.png";
 import Header from "../components/header";
 import { Link } from "react-router-dom";
@@ -22,7 +23,14 @@ const Projects = () => {
       tag: "Backend",
       img: ikoAfrica,
     },
-    {
+        {
+      link: "/projects/liwu",
+      name: "Liwu Airdrop",
+      description: "LiWU Panda is a creative symbol of play, connection, and community in the blockchain space, inspired by the Chinese word for “gift” (禮), and represents a movement of generosity.",
+      tag: "Frontend",
+      img: liwu,
+    },
+         {
       link: "/projects/restaurant",
       name: "Restaurant Management",
       description: "Restaurant management website",
