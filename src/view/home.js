@@ -10,6 +10,7 @@ import databaseImg from "../assets/database.png";
 import devOpsImg from "../assets/cloud.png";
 import codeImg from "../assets/code.png";
 import skilldAfrica from "../assets/projects/skild-africa.png";
+import liwu from "../assets/projects/liwu.png";
 import ikoAfrica from "../assets/projects/ikoafrica.png";
 import restaurant from "../assets/projects/restaurant.jpg";
 import digiyo from "../assets/projects/digiyo.jpeg";
@@ -195,14 +196,14 @@ const HomePage = () => {
                   <PageAnimation>
                     <div className="bg-neutral-700">
                       <Link to="projects/skild-africa">
-                        <img src={skilldAfrica} alt="img" className="w-full" />
+                        <img src={liwu} alt="img" className="w-full" />
                         <div className=" p-3">
                           <span className="flex gap-x-1">
                             <img src={folderImg} alt="img" className="w-5" />
-                            <p>Skild Africa</p>
+                            <p>Liwu Airdrop</p>
                           </span>
                           <p className="text-xs py-1">
-                            An e-learning platform for teenagers and young ones
+                           Liwu - The AI-Powered Gift Token for Gamers, Streamers and Social Connections Built on BNB.
                           </p>
                           <p className="text-xs w-fit bg-[#89632A] px-1">
                             Frontend
