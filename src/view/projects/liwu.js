@@ -9,7 +9,7 @@ const Liwu = () => {
       <Header page="Liwu Airdrop" link="/projects/liwu" />
       <Project
         page="Liwu Airdrop"
-        description="LiWU Panda is a creative symbol of play, connection, and community in the blockchain space, inspired by the Chinese word for “gift” (禮), and represents a movement of generosity."
+        description='LiWU Panda is a creative symbol of play, connection, and community in the blockchain space, inspired by the Chinese word for “gift” (禮), and represents a movement of generosity.'
         link="https://airdrops.liwupanda.com"
         year="2024"
         role="Frontend"
