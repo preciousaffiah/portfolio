@@ -12,7 +12,7 @@ import codeImg from "../assets/code.png";
 import skilldAfrica from "../assets/projects/skild-africa.png";
 import liwu from "../assets/projects/liwu.png";
 import ikoAfrica from "../assets/projects/ikoafrica.png";
-import restaurant from "../assets/projects/restaurant.jpg";
+import flenjo from "../assets/projects/flenjo.png";
 import digiyo from "../assets/projects/digiyo.jpeg";
 import digiyoLogo from "../assets/projects/logos/logo-digiyo2.png";
 import mscaLogo from "../assets/projects/logos/logo-msca2.png";
@@ -169,7 +169,7 @@ const HomePage = () => {
                     <div className="bg-neutral-700">
                       <Link to="tryflenjo.com">
                         <img
-                          src={restaurant}
+                          src={flenjo}
                           alt="img"
                           className="w-full h-40"
                         />
