@@ -148,7 +148,7 @@ const HomePage = () => {
                 <div className="md:w-[48%] w-full">
                   <PageAnimation>
                     <div className="bg-neutral-700">
-                      <Link to="projects/iko-africa">
+                      <Link to="ikoafrica.com">
                         <img src={ikoAfrica} alt="img" className="w-full" />
                         <div className=" p-3">
                           <span className="flex gap-x-1">
@@ -158,9 +158,9 @@ const HomePage = () => {
                           <p className="text-xs py-1">
                             Social publishing app for african writers
                           </p>
-                          <p className="text-xs w-fit bg-[#69314C] px-1">
-                            Backend
-                          </p>
+                          // <p className="text-xs w-fit bg-[#69314C] px-1">
+                          //   Backend
+                          // </p>
                         </div>
                       </Link>
                     </div>
@@ -170,7 +170,7 @@ const HomePage = () => {
                 <div className="md:w-[48%] w-full">
                   <PageAnimation>
                     <div className="bg-neutral-700">
-                      <Link to="projects/restaurant">
+                      <Link to="tryflenjo.com">
                         <img
                           src={restaurant}
                           alt="img"
@@ -179,14 +179,14 @@ const HomePage = () => {
                         <div className=" p-3">
                           <span className="flex gap-x-1">
                             <img src={folderImg} alt="img" className="w-5" />
-                            <p>Restaurant Management</p>
+                            <p>Flenjo</p>
                           </span>
                           <p className="text-xs py-1">
-                            Restaurant management website
+                           A Saas system for businesses that takes the hassle out of the process, giving you a seamless, all-in-one platform to manage everything effortlessly.
                           </p>
-                          <p className="text-xs w-fit bg-[#89632A] px-1">
-                            Frontend
-                          </p>
+                          // <p className="text-xs w-fit bg-[#89632A] px-1">
+                          //   Frontend
+                          // </p>
                         </div>
                       </Link>
                     </div>
@@ -205,9 +205,9 @@ const HomePage = () => {
                           <p className="text-xs py-1">
                            Liwu - The AI-Powered Gift Token for Gamers, Streamers and Social Connections Built on BNB.
                           </p>
-                          <p className="text-xs w-fit bg-[#89632A] px-1">
-                            Frontend
-                          </p>
+                          // <p className="text-xs w-fit bg-[#89632A] px-1">
+                          //   Frontend
+                          // </p>
                         </div>
                       </Link>
                     </div>
@@ -227,9 +227,9 @@ const HomePage = () => {
                             A social sporting platform for athletes and like
                             minds
                           </p>
-                          <p className="text-xs w-fit bg-[#69314C] px-1">
-                            Backend
-                          </p>
+                          // <p className="text-xs w-fit bg-[#69314C] px-1">
+                          //   Backend
+                          // </p>
                         </div>
                       </Link>
                     </div>
