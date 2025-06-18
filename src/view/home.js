@@ -84,7 +84,7 @@ const HomePage = () => {
             <PageAnimation>
               <div className="flex md:flex-row flex-col py-12 border-b-2 md:gap-y-0 gap-y-8 border-solid border-neutral-700">
                 <div className="w-1/2">
-                  <h1 className="text-3xl font-bold pb-3">4+</h1>
+                  <h1 className="text-3xl font-bold pb-3">5+</h1>
                   <p>Years of Experience</p>
                 </div>
                 <div className="w-1/2">
