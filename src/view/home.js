@@ -179,7 +179,7 @@ const HomePage = () => {
                             <p>Flenjo</p>
                           </span>
                           <p className="text-xs py-1">
-                           A Saas system for businesses that takes the hassle out of the process, giving you a seamless, all-in-one platform to manage everything effortlessly.
+                           A Saas system that helps businesses manage everything effortlessly.
                           </p>
                         </div>
                       </Link>
