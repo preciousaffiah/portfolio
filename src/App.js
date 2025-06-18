@@ -20,16 +20,6 @@ function App() {
         <GoogleAnalytics />
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/projects/iko-africa" element={<Iko />} />
-            <Route path="/projects/skild-africa" element={<Skild />} />
-            <Route path="/projects/liwu" element={<Liwu />} />
-            <Route path="/projects/ticketing" element={<Ticketing />} />
-            <Route path="/projects/word-hive" element={<Word />} />
-            <Route path="/projects/real-estate" element={<RealEstate />} />
-            <Route path="/projects/top-shelf" element={<TopShelf />} />
-            <Route path="/projects/restaurant" element={<Restaurant />} />
-            <Route path="/projects/you-chat" element={<YouChat />} />
           </Routes>
         {/* <Footer /> */}
       </div>
