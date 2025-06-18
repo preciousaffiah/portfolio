@@ -158,9 +158,6 @@ const HomePage = () => {
                           <p className="text-xs py-1">
                             Social publishing app for african writers
                           </p>
-                          // <p className="text-xs w-fit bg-[#69314C] px-1">
-                          //   Backend
-                          // </p>
                         </div>
                       </Link>
                     </div>
@@ -184,9 +181,6 @@ const HomePage = () => {
                           <p className="text-xs py-1">
                            A Saas system for businesses that takes the hassle out of the process, giving you a seamless, all-in-one platform to manage everything effortlessly.
                           </p>
-                          // <p className="text-xs w-fit bg-[#89632A] px-1">
-                          //   Frontend
-                          // </p>
                         </div>
                       </Link>
                     </div>
@@ -205,9 +199,6 @@ const HomePage = () => {
                           <p className="text-xs py-1">
                            Liwu - The AI-Powered Gift Token for Gamers, Streamers and Social Connections Built on BNB.
                           </p>
-                          // <p className="text-xs w-fit bg-[#89632A] px-1">
-                          //   Frontend
-                          // </p>
                         </div>
                       </Link>
                     </div>
@@ -227,9 +218,6 @@ const HomePage = () => {
                             A social sporting platform for athletes and like
                             minds
                           </p>
-                          // <p className="text-xs w-fit bg-[#69314C] px-1">
-                          //   Backend
-                          // </p>
                         </div>
                       </Link>
                     </div>
