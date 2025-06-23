@@ -167,7 +167,7 @@ const HomePage = () => {
                 <div className="md:w-[48%] w-full">
                   <PageAnimation>
                     <div className="bg-neutral-700">
-                      <Link to="tryflenjo.com">
+                      <Link to="https://tryflenjo.com" target="_blank">
                         <img
                           src={flenjo}
                           alt="img"
@@ -189,7 +189,7 @@ const HomePage = () => {
                 <div className="md:w-[48%] w-full">
                   <PageAnimation>
                     <div className="bg-neutral-700">
-                      <Link to="projects/liwu">
+                      <Link to="https://airdrops.liwupanda.com" target="_blank">
                         <img src={liwu} alt="img" className="w-full" />
                         <div className=" p-3">
                           <span className="flex gap-x-1">
@@ -207,7 +207,7 @@ const HomePage = () => {
                 <div className="md:w-[48%] w-full">
                   <PageAnimation>
                     <div className="bg-neutral-700">
-                      <Link to="projects/digiyo">
+                      <Link to="preciousaffiah.com" target="_blank">
                         <img src={digiyo} alt="img" className="w-full" />
                         <div className=" p-3">
                           <span className="flex gap-x-1">
