@@ -148,7 +148,7 @@ const HomePage = () => {
                 <div className="md:w-[48%] w-full">
                   <PageAnimation>
                     <div className="bg-neutral-700">
-                      <Link to="ikoafrica.com">
+                      <Link to="https://ikoafrica.com">
                         <img src={ikoAfrica} alt="img" className="w-full" />
                         <div className=" p-3">
                           <span className="flex gap-x-1">
