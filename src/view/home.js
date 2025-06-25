@@ -61,7 +61,7 @@ const HomePage = () => {
                     building robust and scalable software systems. With 5+ years
                     of experience in the industry, I've worked on variety of
                     projects, ranging from large-scale enterprise solutions to
-                    innovative startup ventures. Ready to{" "}
+                    innovative startup ventures meaning i'm not new to this, i'm true to this. Ready to{" "}
                     <span className="text-xl font-semibold pb-3">Create</span>{" "}
                     and{" "}
                     <span className="text-xl font-semibold pb-3">Recreate</span>{" "}
