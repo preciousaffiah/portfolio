@@ -17,7 +17,7 @@ function App() {
     <BrowserRouter>
       <div>
         {/* <Header /> */}
-        <GoogleAnalytics />
+        // <GoogleAnalytics />
           <Routes>
             <Route path="/" element={<HomePage />} />
           </Routes>
