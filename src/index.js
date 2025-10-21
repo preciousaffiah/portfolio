@@ -5,8 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ReactGA from "react-ga4";
 
-ReactGA.initialize("G-V6T0KTP5T3"); // Replace with your Measurement ID
-ReactGA.send("pageview"); // Tracks the initial page load
+// ReactGA.initialize("G-V6T0KTP5T3"); // Replace with your Measurement ID
+// ReactGA.send("pageview"); // Tracks the initial page load
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
